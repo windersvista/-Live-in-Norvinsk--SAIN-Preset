@@ -6,12 +6,12 @@
     "easy": {
       "Difficulty": {
         "VisibleDistCoef": 1.2,
-        "GainSightCoef": 1.0,
+        "GainSightCoef": 1.2,
         "ScatteringCoef": 1.2,
         "HearingDistanceCoef": 1.5,
         "AggressionCoef": 1.5,
         "PRECISION_SPEED_COEF": 1.0,
-        "ACCURACY_SPEED_COEF": 1.0
+        "ACCURACY_SPEED_COEF": 1.1
       },
       "Core": {
         "VisibleAngle": 150.0,
@@ -29,18 +29,18 @@
         "AimForHeadChance": 33.0,
         "DistanceAimTimeMultiplier": 1.0,
         "AngleAimTimeMultiplier": 1.2,
-        "FasterCQBReactions": true,
+        "FasterCQBReactions": false,
         "FasterCQBReactionsDistance": 25.0,
-        "FasterCQBReactionsMinimum": 0.33,
+        "FasterCQBReactionsMinimum": 0.38,
         "MAX_AIMING_UPGRADE_BY_TIME": 0.25,
-        "DIST_TO_SHOOT_NO_OFFSET": 3.0,
+        "DIST_TO_SHOOT_NO_OFFSET": 8.0,
         "COEF_IF_MOVE": 1.5,
         "MAX_AIM_TIME": 1.5,
         "DAMAGE_TO_DISCARD_AIM_0_100": 100.0,
         "BASE_HIT_AFFECTION_DELAY_SEC": 0.65,
         "MIN_TIME_DISCARD_AIM_SEC": 0.5,
         "MAX_TIME_DISCARD_AIM_SEC": 1.5,
-        "FIRST_CONTACT_ADD_SEC": 0.2
+        "FIRST_CONTACT_ADD_SEC": 0.35
       },
       "Boss": {
         "SET_CHEAT_VISIBLE_WHEN_ADD_TO_ENEMY": false
@@ -54,23 +54,23 @@
         "ThrowGrenadeFrequency_MAX": 10.0,
         "MinFriendlyDistance": 8.0,
         "MinEnemyDistance": 8.0,
-        "GrenadePrecision": 0.08
+        "GrenadePrecision": 0.5
       },
       "Hearing": {},
       "Lay": {},
       "Look": {
         "CAN_USE_LIGHT": true,
         "FULL_SECTOR_VIEW": false,
-        "MAX_DIST_CLAMP_TO_SEEN_SPEED": 500.0,
-        "VISIBLE_ANG_NIGHTVISION": 90.0,
+        "MAX_DIST_CLAMP_TO_SEEN_SPEED": 150.0,
+        "VISIBLE_ANG_NIGHTVISION": 100.0,
         "VISIBLE_ANG_LIGHT": 35.0,
         "VISIBLE_DISNACE_WITH_LIGHT": 65.0,
-        "VISIBLE_DISNACE_WITH_IR_LIGHT": 65.0
+        "VISIBLE_DISNACE_WITH_IR_LIGHT": 35.0
       },
       "Mind": {
         "Aggression": 1.2,
         "WeaponProficiency": 0.5,
-        "SuppressionResistance": 0.0,
+        "SuppressionResistance": 0.2,
         "TalkFrequency": 1.0,
         "CanTalk": true,
         "BotTaunts": true,
@@ -94,13 +94,13 @@
       },
       "Patrol": {},
       "Scattering": {
-        "HandDamageScatteringMinMax": 1.5,
+        "HandDamageScatteringMinMax": 1.6,
         "HandDamageAccuracySpeed": 1.5
       },
       "Shoot": {
         "RecoilMultiplier": 1.0,
-        "BurstMulti": 3.0,
-        "FireratMulti": 3.0,
+        "BurstMulti": 2.5,
+        "FireratMulti": 2.0,
         "MaxPointFireDistance": 150.0,
         "AUTOMATIC_FIRE_SCATTERING_COEF": 1.5
       }
@@ -108,12 +108,12 @@
     "normal": {
       "Difficulty": {
         "VisibleDistCoef": 1.2,
-        "GainSightCoef": 1.0,
+        "GainSightCoef": 1.2,
         "ScatteringCoef": 1.2,
         "HearingDistanceCoef": 1.5,
         "AggressionCoef": 1.5,
         "PRECISION_SPEED_COEF": 1.0,
-        "ACCURACY_SPEED_COEF": 1.0
+        "ACCURACY_SPEED_COEF": 1.1
       },
       "Core": {
         "VisibleAngle": 150.0,
@@ -131,18 +131,18 @@
         "AimForHeadChance": 33.0,
         "DistanceAimTimeMultiplier": 1.0,
         "AngleAimTimeMultiplier": 1.2,
-        "FasterCQBReactions": true,
+        "FasterCQBReactions": false,
         "FasterCQBReactionsDistance": 25.0,
-        "FasterCQBReactionsMinimum": 0.33,
+        "FasterCQBReactionsMinimum": 0.38,
         "MAX_AIMING_UPGRADE_BY_TIME": 0.25,
-        "DIST_TO_SHOOT_NO_OFFSET": 3.0,
+        "DIST_TO_SHOOT_NO_OFFSET": 8.0,
         "COEF_IF_MOVE": 1.5,
         "MAX_AIM_TIME": 1.5,
         "DAMAGE_TO_DISCARD_AIM_0_100": 100.0,
         "BASE_HIT_AFFECTION_DELAY_SEC": 0.65,
         "MIN_TIME_DISCARD_AIM_SEC": 0.5,
         "MAX_TIME_DISCARD_AIM_SEC": 1.5,
-        "FIRST_CONTACT_ADD_SEC": 0.2
+        "FIRST_CONTACT_ADD_SEC": 0.35
       },
       "Boss": {
         "SET_CHEAT_VISIBLE_WHEN_ADD_TO_ENEMY": false
@@ -156,23 +156,23 @@
         "ThrowGrenadeFrequency_MAX": 10.0,
         "MinFriendlyDistance": 8.0,
         "MinEnemyDistance": 8.0,
-        "GrenadePrecision": 0.08
+        "GrenadePrecision": 0.5
       },
       "Hearing": {},
       "Lay": {},
       "Look": {
         "CAN_USE_LIGHT": true,
         "FULL_SECTOR_VIEW": false,
-        "MAX_DIST_CLAMP_TO_SEEN_SPEED": 500.0,
-        "VISIBLE_ANG_NIGHTVISION": 90.0,
+        "MAX_DIST_CLAMP_TO_SEEN_SPEED": 150.0,
+        "VISIBLE_ANG_NIGHTVISION": 100.0,
         "VISIBLE_ANG_LIGHT": 35.0,
         "VISIBLE_DISNACE_WITH_LIGHT": 65.0,
-        "VISIBLE_DISNACE_WITH_IR_LIGHT": 65.0
+        "VISIBLE_DISNACE_WITH_IR_LIGHT": 35.0
       },
       "Mind": {
         "Aggression": 1.2,
         "WeaponProficiency": 0.5,
-        "SuppressionResistance": 0.0,
+        "SuppressionResistance": 0.2,
         "TalkFrequency": 1.0,
         "CanTalk": true,
         "BotTaunts": true,
@@ -196,13 +196,13 @@
       },
       "Patrol": {},
       "Scattering": {
-        "HandDamageScatteringMinMax": 1.5,
+        "HandDamageScatteringMinMax": 1.6,
         "HandDamageAccuracySpeed": 1.5
       },
       "Shoot": {
         "RecoilMultiplier": 1.0,
-        "BurstMulti": 3.0,
-        "FireratMulti": 3.0,
+        "BurstMulti": 2.5,
+        "FireratMulti": 2.0,
         "MaxPointFireDistance": 150.0,
         "AUTOMATIC_FIRE_SCATTERING_COEF": 1.5
       }
@@ -210,12 +210,12 @@
     "hard": {
       "Difficulty": {
         "VisibleDistCoef": 1.2,
-        "GainSightCoef": 1.0,
+        "GainSightCoef": 1.2,
         "ScatteringCoef": 1.2,
         "HearingDistanceCoef": 1.5,
         "AggressionCoef": 1.5,
         "PRECISION_SPEED_COEF": 1.0,
-        "ACCURACY_SPEED_COEF": 1.0
+        "ACCURACY_SPEED_COEF": 1.1
       },
       "Core": {
         "VisibleAngle": 150.0,
@@ -233,18 +233,18 @@
         "AimForHeadChance": 33.0,
         "DistanceAimTimeMultiplier": 1.0,
         "AngleAimTimeMultiplier": 1.2,
-        "FasterCQBReactions": true,
+        "FasterCQBReactions": false,
         "FasterCQBReactionsDistance": 25.0,
-        "FasterCQBReactionsMinimum": 0.33,
+        "FasterCQBReactionsMinimum": 0.38,
         "MAX_AIMING_UPGRADE_BY_TIME": 0.25,
-        "DIST_TO_SHOOT_NO_OFFSET": 3.0,
+        "DIST_TO_SHOOT_NO_OFFSET": 8.0,
         "COEF_IF_MOVE": 1.5,
         "MAX_AIM_TIME": 1.5,
         "DAMAGE_TO_DISCARD_AIM_0_100": 100.0,
         "BASE_HIT_AFFECTION_DELAY_SEC": 0.65,
         "MIN_TIME_DISCARD_AIM_SEC": 0.5,
         "MAX_TIME_DISCARD_AIM_SEC": 1.5,
-        "FIRST_CONTACT_ADD_SEC": 0.2
+        "FIRST_CONTACT_ADD_SEC": 0.35
       },
       "Boss": {
         "SET_CHEAT_VISIBLE_WHEN_ADD_TO_ENEMY": false
@@ -258,23 +258,23 @@
         "ThrowGrenadeFrequency_MAX": 10.0,
         "MinFriendlyDistance": 8.0,
         "MinEnemyDistance": 8.0,
-        "GrenadePrecision": 0.08
+        "GrenadePrecision": 0.5
       },
       "Hearing": {},
       "Lay": {},
       "Look": {
         "CAN_USE_LIGHT": true,
         "FULL_SECTOR_VIEW": false,
-        "MAX_DIST_CLAMP_TO_SEEN_SPEED": 500.0,
-        "VISIBLE_ANG_NIGHTVISION": 90.0,
+        "MAX_DIST_CLAMP_TO_SEEN_SPEED": 150.0,
+        "VISIBLE_ANG_NIGHTVISION": 100.0,
         "VISIBLE_ANG_LIGHT": 35.0,
         "VISIBLE_DISNACE_WITH_LIGHT": 65.0,
-        "VISIBLE_DISNACE_WITH_IR_LIGHT": 65.0
+        "VISIBLE_DISNACE_WITH_IR_LIGHT": 35.0
       },
       "Mind": {
         "Aggression": 1.2,
         "WeaponProficiency": 0.5,
-        "SuppressionResistance": 0.0,
+        "SuppressionResistance": 0.2,
         "TalkFrequency": 1.0,
         "CanTalk": true,
         "BotTaunts": true,
@@ -298,13 +298,13 @@
       },
       "Patrol": {},
       "Scattering": {
-        "HandDamageScatteringMinMax": 1.5,
+        "HandDamageScatteringMinMax": 1.6,
         "HandDamageAccuracySpeed": 1.5
       },
       "Shoot": {
         "RecoilMultiplier": 1.0,
-        "BurstMulti": 3.0,
-        "FireratMulti": 3.0,
+        "BurstMulti": 2.5,
+        "FireratMulti": 2.0,
         "MaxPointFireDistance": 150.0,
         "AUTOMATIC_FIRE_SCATTERING_COEF": 1.5
       }
@@ -312,12 +312,12 @@
     "impossible": {
       "Difficulty": {
         "VisibleDistCoef": 1.2,
-        "GainSightCoef": 1.0,
+        "GainSightCoef": 1.2,
         "ScatteringCoef": 1.2,
         "HearingDistanceCoef": 1.5,
         "AggressionCoef": 1.5,
         "PRECISION_SPEED_COEF": 1.0,
-        "ACCURACY_SPEED_COEF": 1.0
+        "ACCURACY_SPEED_COEF": 1.1
       },
       "Core": {
         "VisibleAngle": 150.0,
@@ -335,18 +335,18 @@
         "AimForHeadChance": 33.0,
         "DistanceAimTimeMultiplier": 1.0,
         "AngleAimTimeMultiplier": 1.2,
-        "FasterCQBReactions": true,
+        "FasterCQBReactions": false,
         "FasterCQBReactionsDistance": 25.0,
-        "FasterCQBReactionsMinimum": 0.33,
+        "FasterCQBReactionsMinimum": 0.38,
         "MAX_AIMING_UPGRADE_BY_TIME": 0.25,
-        "DIST_TO_SHOOT_NO_OFFSET": 3.0,
+        "DIST_TO_SHOOT_NO_OFFSET": 8.0,
         "COEF_IF_MOVE": 1.5,
         "MAX_AIM_TIME": 1.5,
         "DAMAGE_TO_DISCARD_AIM_0_100": 100.0,
         "BASE_HIT_AFFECTION_DELAY_SEC": 0.65,
         "MIN_TIME_DISCARD_AIM_SEC": 0.5,
         "MAX_TIME_DISCARD_AIM_SEC": 1.5,
-        "FIRST_CONTACT_ADD_SEC": 0.2
+        "FIRST_CONTACT_ADD_SEC": 0.35
       },
       "Boss": {
         "SET_CHEAT_VISIBLE_WHEN_ADD_TO_ENEMY": false
@@ -360,23 +360,23 @@
         "ThrowGrenadeFrequency_MAX": 10.0,
         "MinFriendlyDistance": 8.0,
         "MinEnemyDistance": 8.0,
-        "GrenadePrecision": 0.08
+        "GrenadePrecision": 0.5
       },
       "Hearing": {},
       "Lay": {},
       "Look": {
         "CAN_USE_LIGHT": true,
         "FULL_SECTOR_VIEW": false,
-        "MAX_DIST_CLAMP_TO_SEEN_SPEED": 500.0,
-        "VISIBLE_ANG_NIGHTVISION": 90.0,
+        "MAX_DIST_CLAMP_TO_SEEN_SPEED": 150.0,
+        "VISIBLE_ANG_NIGHTVISION": 100.0,
         "VISIBLE_ANG_LIGHT": 35.0,
         "VISIBLE_DISNACE_WITH_LIGHT": 65.0,
-        "VISIBLE_DISNACE_WITH_IR_LIGHT": 65.0
+        "VISIBLE_DISNACE_WITH_IR_LIGHT": 35.0
       },
       "Mind": {
         "Aggression": 1.2,
         "WeaponProficiency": 0.5,
-        "SuppressionResistance": 0.0,
+        "SuppressionResistance": 0.2,
         "TalkFrequency": 1.0,
         "CanTalk": true,
         "BotTaunts": true,
@@ -400,13 +400,13 @@
       },
       "Patrol": {},
       "Scattering": {
-        "HandDamageScatteringMinMax": 1.5,
+        "HandDamageScatteringMinMax": 1.6,
         "HandDamageAccuracySpeed": 1.5
       },
       "Shoot": {
         "RecoilMultiplier": 1.0,
-        "BurstMulti": 3.0,
-        "FireratMulti": 3.0,
+        "BurstMulti": 2.5,
+        "FireratMulti": 2.0,
         "MaxPointFireDistance": 150.0,
         "AUTOMATIC_FIRE_SCATTERING_COEF": 1.5
       }
