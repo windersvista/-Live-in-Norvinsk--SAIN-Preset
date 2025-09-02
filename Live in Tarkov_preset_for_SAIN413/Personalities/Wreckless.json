@@ -4,7 +4,7 @@
   "Assignment": {
     "Enabled": true,
     "CanBeRandomlyAssigned": true,
-    "RandomlyAssignedChance": 1.0,
+    "RandomlyAssignedChance": 3.0,
     "MinLevel": 0.0,
     "MaxLevel": 100.0,
     "PowerLevelScaleStart": 250.0,
@@ -12,7 +12,7 @@
     "InverseScale": false,
     "PowerLevelMin": 250.0,
     "PowerLevelMax": 1000.0,
-    "MaxChanceIfMeetRequirements": 5.0,
+    "MaxChanceIfMeetRequirements": 3.0,
     "AllowedTypes": [
       "assault",
       "assaultGroup",
@@ -55,19 +55,19 @@
   },
   "Behavior": {
     "General": {
-      "AggressionMultiplier": 1.1,
+      "AggressionMultiplier": 1.2,
       "KickOpenAllDoors": true,
       "DOGFIGHT_PATH_DIST_START": 8.0,
       "DOGFIGHT_TIMESINCESEEN_START": 1.0,
       "DOGFIGHT_PATH_DIST_END": 15.0,
       "DOGFIGHT_TIMESINCESEEN_END": 6.0,
-      "HoldGroundBaseTime": 2.0,
+      "HoldGroundBaseTime": 1.0,
       "HoldGroundMinRandom": 0.75,
       "HoldGroundMaxRandom": 2.5,
       "SuppressionResistance": 0.5,
       "TARGET_SUPPRESS_TOGGLE": true,
-      "TARGET_SUPPRESS_DIST": 3.0,
-      "TARGET_SUPPRESS_DIST_MAX": 12.0,
+      "TARGET_SUPPRESS_DIST": 5.0,
+      "TARGET_SUPPRESS_DIST_MAX": 15.0,
       "MAX_TARGET_SUPPRESS_ANGLE": 45.0,
       "TimeSinceSeenToSuppress": 3.0,
       "TimeSinceShotAtToSuppress": 12.0,
@@ -82,13 +82,13 @@
       "WillSearchFromAudio": true,
       "HeardFromPeaceBehavior": "Charge",
       "WillChaseDistantGunshots": true,
-      "AudioStraightDistanceToIgnore": 125.0,
+      "AudioStraightDistanceToIgnore": 200.0,
       "SearchBaseTime": 0.1,
       "SearchWaitMultiplier": 1.0,
       "SprintWhileSearchChance": 90.0,
       "Sneaky": false,
-      "SneakySpeed": 1.0,
-      "SneakyPose": 1.0,
+      "SneakySpeed": 0.0,
+      "SneakyPose": 0.0,
       "SlowAtCorners": true
     },
     "Rush": {
@@ -114,17 +114,17 @@
       "TauntFrequency": 4.0,
       "TauntChance": 33.0,
       "TauntMaxDistance": 75.0,
-      "CanFakeDeathRare": true,
-      "FakeDeathChance": 6.0,
+      "CanFakeDeathRare": false,
+      "FakeDeathChance": 0.0,
       "CanBegForLife": false
     }
   },
   "Difficulty": {
     "VisibleDistCoef": 1.0,
     "GainSightCoef": 1.0,
-    "ScatteringCoef": 1.0,
+    "ScatteringCoef": 1.3,
     "HearingDistanceCoef": 1.0,
-    "AggressionCoef": 1.0,
+    "AggressionCoef": 1.1,
     "PRECISION_SPEED_COEF": 1.0,
     "ACCURACY_SPEED_COEF": 1.0
   }

@@ -4,7 +4,7 @@
   "Assignment": {
     "Enabled": true,
     "CanBeRandomlyAssigned": true,
-    "RandomlyAssignedChance": 8.0,
+    "RandomlyAssignedChance": 20.0,
     "MinLevel": 0.0,
     "MaxLevel": 100.0,
     "PowerLevelScaleStart": 100.0,
@@ -12,7 +12,7 @@
     "InverseScale": false,
     "PowerLevelMin": 100.0,
     "PowerLevelMax": 1000.0,
-    "MaxChanceIfMeetRequirements": 80.0,
+    "MaxChanceIfMeetRequirements": 20.0,
     "AllowedTypes": [
       "pmcUSEC",
       "pmcBEAR"
@@ -29,7 +29,7 @@
       "HoldGroundBaseTime": 1.5,
       "HoldGroundMinRandom": 0.75,
       "HoldGroundMaxRandom": 1.5,
-      "SuppressionResistance": 0.55,
+      "SuppressionResistance": 0.6,
       "TARGET_SUPPRESS_TOGGLE": true,
       "TARGET_SUPPRESS_DIST": 3.0,
       "TARGET_SUPPRESS_DIST_MAX": 12.0,
@@ -39,7 +39,7 @@
       "TimeSinceShotToSuppress": 12.0,
       "ENEMYSNIPER_ALWAYS_SPRINT_COVER": true,
       "ENEMYSNIPER_ALWAYS_SPRINT_SEARCH": true,
-      "ENEMYSNIPER_DISTANCE": 85.0,
+      "ENEMYSNIPER_DISTANCE": 90.0,
       "ENEMYSNIPER_DISTANCE_END": 75.0
     },
     "Search": {
@@ -51,21 +51,21 @@
       "SearchBaseTime": 16.0,
       "SearchWaitMultiplier": 1.0,
       "SprintWhileSearchChance": 60.0,
-      "Sneaky": false,
-      "SneakySpeed": 0.0,
-      "SneakyPose": 0.0,
-      "SlowAtCorners": true
+      "Sneaky": true,
+      "SneakySpeed": 0.15,
+      "SneakyPose": 0.15,
+      "SlowAtCorners": false
     },
     "Rush": {
       "CanRushEnemyReloadHeal": true,
-      "CanJumpCorners": false,
-      "JumpCornerChance": 0.0,
-      "CanBunnyHop": false,
-      "BunnyHopChance": 0.0
+      "CanJumpCorners": true,
+      "JumpCornerChance": 20.0,
+      "CanBunnyHop": true,
+      "BunnyHopChance": 20.0
     },
     "Cover": {
       "CanShiftCoverPosition": true,
-      "ShiftCoverTimeMultiplier": 1.0,
+      "ShiftCoverTimeMultiplier": 2.2,
       "MoveToCoverNoEnemySpeed": 1.0,
       "MoveToCoverNoEnemyPose": 1.0,
       "MoveToCoverHasEnemySpeed": 1.0,
@@ -75,7 +75,7 @@
       "CanTaunt": true,
       "FrequentTaunt": true,
       "ConstantTaunt": false,
-      "CanRespondToEnemyVoice": false,
+      "CanRespondToEnemyVoice": true,
       "TauntFrequency": 20.0,
       "TauntChance": 60.0,
       "TauntMaxDistance": 50.0,

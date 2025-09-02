@@ -4,7 +4,7 @@
   "Assignment": {
     "Enabled": true,
     "CanBeRandomlyAssigned": true,
-    "RandomlyAssignedChance": 3.0,
+    "RandomlyAssignedChance": 15.0,
     "MinLevel": 0.0,
     "MaxLevel": 100.0,
     "PowerLevelScaleStart": 250.0,
@@ -12,7 +12,7 @@
     "InverseScale": false,
     "PowerLevelMin": 250.0,
     "PowerLevelMax": 1000.0,
-    "MaxChanceIfMeetRequirements": 80.0,
+    "MaxChanceIfMeetRequirements": 15.0,
     "AllowedTypes": [
       "pmcUSEC",
       "pmcBEAR"
@@ -20,7 +20,7 @@
   },
   "Behavior": {
     "General": {
-      "AggressionMultiplier": 1.2,
+      "AggressionMultiplier": 1.4,
       "KickOpenAllDoors": true,
       "DOGFIGHT_PATH_DIST_START": 8.0,
       "DOGFIGHT_TIMESINCESEEN_START": 1.0,
@@ -29,7 +29,7 @@
       "HoldGroundBaseTime": 1.2,
       "HoldGroundMinRandom": 0.65,
       "HoldGroundMaxRandom": 1.5,
-      "SuppressionResistance": 0.65,
+      "SuppressionResistance": 0.7,
       "TARGET_SUPPRESS_TOGGLE": true,
       "TARGET_SUPPRESS_DIST": 3.0,
       "TARGET_SUPPRESS_DIST_MAX": 12.0,
@@ -39,29 +39,29 @@
       "TimeSinceShotToSuppress": 12.0,
       "ENEMYSNIPER_ALWAYS_SPRINT_COVER": true,
       "ENEMYSNIPER_ALWAYS_SPRINT_SEARCH": true,
-      "ENEMYSNIPER_DISTANCE": 85.0,
-      "ENEMYSNIPER_DISTANCE_END": 75.0
+      "ENEMYSNIPER_DISTANCE": 95.0,
+      "ENEMYSNIPER_DISTANCE_END": 70.0
     },
     "Search": {
       "WillSearchForEnemy": true,
       "WillSearchFromAudio": true,
       "HeardFromPeaceBehavior": "SearchNow",
       "WillChaseDistantGunshots": true,
-      "AudioStraightDistanceToIgnore": 125.0,
+      "AudioStraightDistanceToIgnore": 140.0,
       "SearchBaseTime": 6.0,
       "SearchWaitMultiplier": 3.0,
       "SprintWhileSearchChance": 75.0,
       "Sneaky": false,
-      "SneakySpeed": 1.0,
-      "SneakyPose": 1.0,
-      "SlowAtCorners": true
+      "SneakySpeed": 0.03,
+      "SneakyPose": 0.03,
+      "SlowAtCorners": false
     },
     "Rush": {
       "CanRushEnemyReloadHeal": true,
       "CanJumpCorners": true,
-      "JumpCornerChance": 40.0,
+      "JumpCornerChance": 100.0,
       "CanBunnyHop": true,
-      "BunnyHopChance": 5.0
+      "BunnyHopChance": 50.0
     },
     "Cover": {
       "CanShiftCoverPosition": true,
@@ -76,10 +76,10 @@
       "FrequentTaunt": true,
       "ConstantTaunt": true,
       "CanRespondToEnemyVoice": true,
-      "TauntFrequency": 8.0,
+      "TauntFrequency": 50.0,
       "TauntChance": 45.0,
       "TauntMaxDistance": 65.0,
-      "CanFakeDeathRare": true,
+      "CanFakeDeathRare": false,
       "FakeDeathChance": 3.0,
       "CanBegForLife": false
     }

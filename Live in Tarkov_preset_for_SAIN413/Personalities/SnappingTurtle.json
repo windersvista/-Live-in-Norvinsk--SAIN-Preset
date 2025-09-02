@@ -4,7 +4,7 @@
   "Assignment": {
     "Enabled": true,
     "CanBeRandomlyAssigned": true,
-    "RandomlyAssignedChance": 1.0,
+    "RandomlyAssignedChance": 40.0,
     "MinLevel": 15.0,
     "MaxLevel": 100.0,
     "PowerLevelScaleStart": 150.0,
@@ -12,7 +12,7 @@
     "InverseScale": false,
     "PowerLevelMin": 150.0,
     "PowerLevelMax": 1000.0,
-    "MaxChanceIfMeetRequirements": 30.0,
+    "MaxChanceIfMeetRequirements": 40.0,
     "AllowedTypes": [
       "pmcUSEC",
       "pmcBEAR"
@@ -20,8 +20,8 @@
   },
   "Behavior": {
     "General": {
-      "AggressionMultiplier": 1.0,
-      "KickOpenAllDoors": false,
+      "AggressionMultiplier": 1.1,
+      "KickOpenAllDoors": true,
       "DOGFIGHT_PATH_DIST_START": 8.0,
       "DOGFIGHT_TIMESINCESEEN_START": 1.0,
       "DOGFIGHT_PATH_DIST_END": 12.0,
@@ -29,7 +29,7 @@
       "HoldGroundBaseTime": 1.5,
       "HoldGroundMinRandom": 0.8,
       "HoldGroundMaxRandom": 1.2,
-      "SuppressionResistance": 0.0,
+      "SuppressionResistance": 0.1,
       "TARGET_SUPPRESS_TOGGLE": true,
       "TARGET_SUPPRESS_DIST": 3.0,
       "TARGET_SUPPRESS_DIST_MAX": 12.0,
@@ -39,7 +39,7 @@
       "TimeSinceShotToSuppress": 12.0,
       "ENEMYSNIPER_ALWAYS_SPRINT_COVER": true,
       "ENEMYSNIPER_ALWAYS_SPRINT_SEARCH": true,
-      "ENEMYSNIPER_DISTANCE": 85.0,
+      "ENEMYSNIPER_DISTANCE": 90.0,
       "ENEMYSNIPER_DISTANCE_END": 75.0
     },
     "Search": {
@@ -47,7 +47,7 @@
       "WillSearchFromAudio": true,
       "HeardFromPeaceBehavior": "Freeze",
       "WillChaseDistantGunshots": false,
-      "AudioStraightDistanceToIgnore": 125.0,
+      "AudioStraightDistanceToIgnore": 110.0,
       "SearchBaseTime": 90.0,
       "SearchWaitMultiplier": 3.0,
       "SprintWhileSearchChance": 40.0,
@@ -65,7 +65,7 @@
     },
     "Cover": {
       "CanShiftCoverPosition": true,
-      "ShiftCoverTimeMultiplier": 2.0,
+      "ShiftCoverTimeMultiplier": 22.7,
       "MoveToCoverNoEnemySpeed": 1.0,
       "MoveToCoverNoEnemyPose": 1.0,
       "MoveToCoverHasEnemySpeed": 1.0,
@@ -80,8 +80,8 @@
       "TauntChance": 50.0,
       "TauntMaxDistance": 70.0,
       "CanFakeDeathRare": true,
-      "FakeDeathChance": 10.0,
-      "CanBegForLife": false
+      "FakeDeathChance": 20.0,
+      "CanBegForLife": true
     }
   },
   "Difficulty": {

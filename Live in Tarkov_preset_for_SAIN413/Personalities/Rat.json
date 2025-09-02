@@ -12,7 +12,7 @@
     "InverseScale": true,
     "PowerLevelMin": 0.0,
     "PowerLevelMax": 200.0,
-    "MaxChanceIfMeetRequirements": 60.0,
+    "MaxChanceIfMeetRequirements": 40.0,
     "AllowedTypes": [
       "assault",
       "assaultGroup",
@@ -85,8 +85,8 @@
       "SearchWaitMultiplier": 1.0,
       "SprintWhileSearchChance": 0.0,
       "Sneaky": true,
-      "SneakySpeed": 0.0,
-      "SneakyPose": 0.0,
+      "SneakySpeed": 0.2,
+      "SneakyPose": 0.2,
       "SlowAtCorners": true
     },
     "Rush": {
@@ -97,9 +97,9 @@
       "BunnyHopChance": 0.0
     },
     "Cover": {
-      "CanShiftCoverPosition": false,
-      "ShiftCoverTimeMultiplier": 1.0,
-      "MoveToCoverNoEnemySpeed": 0.5,
+      "CanShiftCoverPosition": true,
+      "ShiftCoverTimeMultiplier": 150.0,
+      "MoveToCoverNoEnemySpeed": 1.0,
       "MoveToCoverNoEnemyPose": 1.0,
       "MoveToCoverHasEnemySpeed": 0.5,
       "MoveToCoverHasEnemyPose": 0.5
@@ -109,12 +109,12 @@
       "FrequentTaunt": false,
       "ConstantTaunt": false,
       "CanRespondToEnemyVoice": false,
-      "TauntFrequency": 10.0,
+      "TauntFrequency": 0.1,
       "TauntChance": 0.0,
       "TauntMaxDistance": 70.0,
-      "CanFakeDeathRare": false,
-      "FakeDeathChance": 0.0,
-      "CanBegForLife": false
+      "CanFakeDeathRare": true,
+      "FakeDeathChance": 300.0,
+      "CanBegForLife": true
     }
   },
   "Difficulty": {

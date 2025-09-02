@@ -3,16 +3,16 @@
   "Description": "A New Player, terrified of everything.",
   "Assignment": {
     "Enabled": true,
-    "CanBeRandomlyAssigned": false,
-    "RandomlyAssignedChance": 0.0,
+    "CanBeRandomlyAssigned": true,
+    "RandomlyAssignedChance": 25.0,
     "MinLevel": 0.0,
-    "MaxLevel": 15.0,
+    "MaxLevel": 30.0,
     "PowerLevelScaleStart": 0.0,
     "PowerLevelScaleEnd": 150.0,
     "InverseScale": true,
     "PowerLevelMin": 0.0,
     "PowerLevelMax": 150.0,
-    "MaxChanceIfMeetRequirements": 60.0,
+    "MaxChanceIfMeetRequirements": 50.0,
     "AllowedTypes": [
       "assault",
       "assaultGroup",
@@ -62,7 +62,7 @@
       "HoldGroundBaseTime": 0.5,
       "HoldGroundMinRandom": 0.75,
       "HoldGroundMaxRandom": 1.5,
-      "SuppressionResistance": 0.0,
+      "SuppressionResistance": 0.05,
       "TARGET_SUPPRESS_TOGGLE": true,
       "TARGET_SUPPRESS_DIST": 3.0,
       "TARGET_SUPPRESS_DIST_MAX": 12.0,
@@ -71,22 +71,22 @@
       "TimeSinceShotAtToSuppress": 12.0,
       "TimeSinceShotToSuppress": 12.0,
       "ENEMYSNIPER_ALWAYS_SPRINT_COVER": true,
-      "ENEMYSNIPER_ALWAYS_SPRINT_SEARCH": true,
+      "ENEMYSNIPER_ALWAYS_SPRINT_SEARCH": false,
       "ENEMYSNIPER_DISTANCE": 85.0,
       "ENEMYSNIPER_DISTANCE_END": 75.0
     },
     "Search": {
       "WillSearchForEnemy": true,
-      "WillSearchFromAudio": false,
+      "WillSearchFromAudio": true,
       "HeardFromPeaceBehavior": "Freeze",
       "WillChaseDistantGunshots": false,
-      "AudioStraightDistanceToIgnore": 125.0,
+      "AudioStraightDistanceToIgnore": 90.0,
       "SearchBaseTime": 90.0,
       "SearchWaitMultiplier": 0.5,
       "SprintWhileSearchChance": 20.0,
-      "Sneaky": false,
-      "SneakySpeed": 0.0,
-      "SneakyPose": 0.0,
+      "Sneaky": true,
+      "SneakySpeed": 0.17,
+      "SneakyPose": 0.17,
       "SlowAtCorners": true
     },
     "Rush": {
@@ -97,7 +97,7 @@
       "BunnyHopChance": 0.0
     },
     "Cover": {
-      "CanShiftCoverPosition": false,
+      "CanShiftCoverPosition": true,
       "ShiftCoverTimeMultiplier": 0.5,
       "MoveToCoverNoEnemySpeed": 0.5,
       "MoveToCoverNoEnemyPose": 1.0,
@@ -112,8 +112,8 @@
       "TauntFrequency": 10.0,
       "TauntChance": 50.0,
       "TauntMaxDistance": 70.0,
-      "CanFakeDeathRare": false,
-      "FakeDeathChance": 0.0,
+      "CanFakeDeathRare": true,
+      "FakeDeathChance": 25.6,
       "CanBegForLife": true
     }
   },
