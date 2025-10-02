@@ -69,8 +69,8 @@
       },
       "Mind": {
         "Aggression": 1.2,
-        "WeaponProficiency": 0.5,
-        "SuppressionResistance": 0.2,
+        "WeaponProficiency": 0.7,
+        "SuppressionResistance": 0.3,
         "TalkFrequency": 1.0,
         "CanTalk": true,
         "BotTaunts": true,
@@ -171,8 +171,8 @@
       },
       "Mind": {
         "Aggression": 1.2,
-        "WeaponProficiency": 0.5,
-        "SuppressionResistance": 0.2,
+        "WeaponProficiency": 0.7,
+        "SuppressionResistance": 0.3,
         "TalkFrequency": 1.0,
         "CanTalk": true,
         "BotTaunts": true,
@@ -273,8 +273,8 @@
       },
       "Mind": {
         "Aggression": 1.2,
-        "WeaponProficiency": 0.5,
-        "SuppressionResistance": 0.2,
+        "WeaponProficiency": 0.7,
+        "SuppressionResistance": 0.3,
         "TalkFrequency": 1.0,
         "CanTalk": true,
         "BotTaunts": true,
@@ -375,8 +375,8 @@
       },
       "Mind": {
         "Aggression": 1.2,
-        "WeaponProficiency": 0.5,
-        "SuppressionResistance": 0.2,
+        "WeaponProficiency": 0.7,
+        "SuppressionResistance": 0.3,
         "TalkFrequency": 1.0,
         "CanTalk": true,
         "BotTaunts": true,

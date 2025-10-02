@@ -543,7 +543,7 @@
       "bossSanitar": "Coward",
       "bossBoar": "Coward"
     },
-    "GlobalAggression": 1.5,
+    "GlobalAggression": 1.4,
     "SneakyBots": true,
     "OnlySneakyPersonalitiesSneaky": false,
     "MaximumDistanceToBeSneaky": 30.0,

@@ -9,10 +9,10 @@
     "MaxLevel": 100.0,
     "PowerLevelScaleStart": 0.0,
     "PowerLevelScaleEnd": 200.0,
-    "InverseScale": true,
+    "InverseScale": false,
     "PowerLevelMin": 0.0,
     "PowerLevelMax": 200.0,
-    "MaxChanceIfMeetRequirements": 40.0,
+    "MaxChanceIfMeetRequirements": 25.0,
     "AllowedTypes": [
       "assault",
       "assaultGroup",

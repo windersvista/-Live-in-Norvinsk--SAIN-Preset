@@ -2,7 +2,7 @@
   "Name": "Wreckless",
   "Description": "This personality tends to sprint at their enemies, and will very frequently scream at everyone - Usually both at the same time. More Aggressive than Gigachads.",
   "Assignment": {
-    "Enabled": true,
+    "Enabled": false,
     "CanBeRandomlyAssigned": true,
     "RandomlyAssignedChance": 3.0,
     "MinLevel": 0.0,

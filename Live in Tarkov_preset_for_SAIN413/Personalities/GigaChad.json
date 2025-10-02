@@ -12,7 +12,7 @@
     "InverseScale": false,
     "PowerLevelMin": 250.0,
     "PowerLevelMax": 1000.0,
-    "MaxChanceIfMeetRequirements": 15.0,
+    "MaxChanceIfMeetRequirements": 20.0,
     "AllowedTypes": [
       "pmcUSEC",
       "pmcBEAR"

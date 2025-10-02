@@ -6,21 +6,21 @@
     "easy": {
       "Difficulty": {
         "VisibleDistCoef": 1.2,
-        "GainSightCoef": 1.2,
-        "ScatteringCoef": 1.2,
-        "HearingDistanceCoef": 1.5,
+        "GainSightCoef": 1.6,
+        "ScatteringCoef": 1.0,
+        "HearingDistanceCoef": 2.0,
         "AggressionCoef": 1.5,
         "PRECISION_SPEED_COEF": 1.0,
         "ACCURACY_SPEED_COEF": 1.1
       },
       "Core": {
-        "VisibleAngle": 150.0,
-        "VisibleDistance": 142.0,
+        "VisibleAngle": 170.0,
+        "VisibleDistance": 150.0,
         "GainSightCoef": 1.32,
         "AccuratySpeed": 0.2,
         "ScatteringPerMeter": 0.045,
         "ScatteringClosePerMeter": 0.12,
-        "HearingDistanceMulti": 1.0,
+        "HearingDistanceMulti": 1.5,
         "CanGrenade": true
       },
       "Aiming": {
@@ -29,11 +29,11 @@
         "AimForHeadChance": 33.0,
         "DistanceAimTimeMultiplier": 1.0,
         "AngleAimTimeMultiplier": 1.2,
-        "FasterCQBReactions": false,
+        "FasterCQBReactions": true,
         "FasterCQBReactionsDistance": 25.0,
-        "FasterCQBReactionsMinimum": 0.38,
+        "FasterCQBReactionsMinimum": 0.32,
         "MAX_AIMING_UPGRADE_BY_TIME": 0.25,
-        "DIST_TO_SHOOT_NO_OFFSET": 8.0,
+        "DIST_TO_SHOOT_NO_OFFSET": 15.0,
         "COEF_IF_MOVE": 1.5,
         "MAX_AIM_TIME": 1.5,
         "DAMAGE_TO_DISCARD_AIM_0_100": 100.0,
@@ -68,9 +68,9 @@
         "VISIBLE_DISNACE_WITH_IR_LIGHT": 35.0
       },
       "Mind": {
-        "Aggression": 1.2,
-        "WeaponProficiency": 0.5,
-        "SuppressionResistance": 0.2,
+        "Aggression": 1.5,
+        "WeaponProficiency": 0.9,
+        "SuppressionResistance": 0.6,
         "TalkFrequency": 1.0,
         "CanTalk": true,
         "BotTaunts": true,
@@ -99,30 +99,30 @@
       },
       "Shoot": {
         "RecoilMultiplier": 1.0,
-        "BurstMulti": 2.5,
+        "BurstMulti": 1.5,
         "FireratMulti": 2.0,
         "MaxPointFireDistance": 150.0,
-        "AUTOMATIC_FIRE_SCATTERING_COEF": 1.5
+        "AUTOMATIC_FIRE_SCATTERING_COEF": 1.3
       }
     },
     "normal": {
       "Difficulty": {
         "VisibleDistCoef": 1.2,
-        "GainSightCoef": 1.2,
-        "ScatteringCoef": 1.2,
-        "HearingDistanceCoef": 1.5,
+        "GainSightCoef": 1.6,
+        "ScatteringCoef": 1.0,
+        "HearingDistanceCoef": 2.0,
         "AggressionCoef": 1.5,
         "PRECISION_SPEED_COEF": 1.0,
         "ACCURACY_SPEED_COEF": 1.1
       },
       "Core": {
-        "VisibleAngle": 150.0,
-        "VisibleDistance": 142.0,
+        "VisibleAngle": 170.0,
+        "VisibleDistance": 150.0,
         "GainSightCoef": 1.32,
         "AccuratySpeed": 0.2,
         "ScatteringPerMeter": 0.045,
         "ScatteringClosePerMeter": 0.12,
-        "HearingDistanceMulti": 1.0,
+        "HearingDistanceMulti": 1.5,
         "CanGrenade": true
       },
       "Aiming": {
@@ -131,11 +131,11 @@
         "AimForHeadChance": 33.0,
         "DistanceAimTimeMultiplier": 1.0,
         "AngleAimTimeMultiplier": 1.2,
-        "FasterCQBReactions": false,
+        "FasterCQBReactions": true,
         "FasterCQBReactionsDistance": 25.0,
-        "FasterCQBReactionsMinimum": 0.38,
+        "FasterCQBReactionsMinimum": 0.32,
         "MAX_AIMING_UPGRADE_BY_TIME": 0.25,
-        "DIST_TO_SHOOT_NO_OFFSET": 8.0,
+        "DIST_TO_SHOOT_NO_OFFSET": 15.0,
         "COEF_IF_MOVE": 1.5,
         "MAX_AIM_TIME": 1.5,
         "DAMAGE_TO_DISCARD_AIM_0_100": 100.0,
@@ -170,9 +170,9 @@
         "VISIBLE_DISNACE_WITH_IR_LIGHT": 35.0
       },
       "Mind": {
-        "Aggression": 1.2,
-        "WeaponProficiency": 0.5,
-        "SuppressionResistance": 0.2,
+        "Aggression": 1.5,
+        "WeaponProficiency": 0.9,
+        "SuppressionResistance": 0.6,
         "TalkFrequency": 1.0,
         "CanTalk": true,
         "BotTaunts": true,
@@ -201,30 +201,30 @@
       },
       "Shoot": {
         "RecoilMultiplier": 1.0,
-        "BurstMulti": 2.5,
+        "BurstMulti": 1.5,
         "FireratMulti": 2.0,
         "MaxPointFireDistance": 150.0,
-        "AUTOMATIC_FIRE_SCATTERING_COEF": 1.5
+        "AUTOMATIC_FIRE_SCATTERING_COEF": 1.3
       }
     },
     "hard": {
       "Difficulty": {
         "VisibleDistCoef": 1.2,
-        "GainSightCoef": 1.2,
-        "ScatteringCoef": 1.2,
-        "HearingDistanceCoef": 1.5,
+        "GainSightCoef": 1.6,
+        "ScatteringCoef": 1.0,
+        "HearingDistanceCoef": 2.0,
         "AggressionCoef": 1.5,
         "PRECISION_SPEED_COEF": 1.0,
         "ACCURACY_SPEED_COEF": 1.1
       },
       "Core": {
-        "VisibleAngle": 150.0,
-        "VisibleDistance": 142.0,
+        "VisibleAngle": 170.0,
+        "VisibleDistance": 150.0,
         "GainSightCoef": 1.32,
         "AccuratySpeed": 0.2,
         "ScatteringPerMeter": 0.045,
         "ScatteringClosePerMeter": 0.12,
-        "HearingDistanceMulti": 1.0,
+        "HearingDistanceMulti": 1.5,
         "CanGrenade": true
       },
       "Aiming": {
@@ -233,11 +233,11 @@
         "AimForHeadChance": 33.0,
         "DistanceAimTimeMultiplier": 1.0,
         "AngleAimTimeMultiplier": 1.2,
-        "FasterCQBReactions": false,
+        "FasterCQBReactions": true,
         "FasterCQBReactionsDistance": 25.0,
-        "FasterCQBReactionsMinimum": 0.38,
+        "FasterCQBReactionsMinimum": 0.32,
         "MAX_AIMING_UPGRADE_BY_TIME": 0.25,
-        "DIST_TO_SHOOT_NO_OFFSET": 8.0,
+        "DIST_TO_SHOOT_NO_OFFSET": 15.0,
         "COEF_IF_MOVE": 1.5,
         "MAX_AIM_TIME": 1.5,
         "DAMAGE_TO_DISCARD_AIM_0_100": 100.0,
@@ -272,9 +272,9 @@
         "VISIBLE_DISNACE_WITH_IR_LIGHT": 35.0
       },
       "Mind": {
-        "Aggression": 1.2,
-        "WeaponProficiency": 0.5,
-        "SuppressionResistance": 0.2,
+        "Aggression": 1.5,
+        "WeaponProficiency": 0.9,
+        "SuppressionResistance": 0.6,
         "TalkFrequency": 1.0,
         "CanTalk": true,
         "BotTaunts": true,
@@ -303,30 +303,30 @@
       },
       "Shoot": {
         "RecoilMultiplier": 1.0,
-        "BurstMulti": 2.5,
+        "BurstMulti": 1.5,
         "FireratMulti": 2.0,
         "MaxPointFireDistance": 150.0,
-        "AUTOMATIC_FIRE_SCATTERING_COEF": 1.5
+        "AUTOMATIC_FIRE_SCATTERING_COEF": 1.3
       }
     },
     "impossible": {
       "Difficulty": {
         "VisibleDistCoef": 1.2,
-        "GainSightCoef": 1.2,
-        "ScatteringCoef": 1.2,
-        "HearingDistanceCoef": 1.5,
+        "GainSightCoef": 1.6,
+        "ScatteringCoef": 1.0,
+        "HearingDistanceCoef": 2.0,
         "AggressionCoef": 1.5,
         "PRECISION_SPEED_COEF": 1.0,
         "ACCURACY_SPEED_COEF": 1.1
       },
       "Core": {
-        "VisibleAngle": 150.0,
-        "VisibleDistance": 142.0,
+        "VisibleAngle": 170.0,
+        "VisibleDistance": 150.0,
         "GainSightCoef": 1.32,
         "AccuratySpeed": 0.2,
         "ScatteringPerMeter": 0.045,
         "ScatteringClosePerMeter": 0.12,
-        "HearingDistanceMulti": 1.0,
+        "HearingDistanceMulti": 1.5,
         "CanGrenade": true
       },
       "Aiming": {
@@ -335,11 +335,11 @@
         "AimForHeadChance": 33.0,
         "DistanceAimTimeMultiplier": 1.0,
         "AngleAimTimeMultiplier": 1.2,
-        "FasterCQBReactions": false,
+        "FasterCQBReactions": true,
         "FasterCQBReactionsDistance": 25.0,
-        "FasterCQBReactionsMinimum": 0.38,
+        "FasterCQBReactionsMinimum": 0.32,
         "MAX_AIMING_UPGRADE_BY_TIME": 0.25,
-        "DIST_TO_SHOOT_NO_OFFSET": 8.0,
+        "DIST_TO_SHOOT_NO_OFFSET": 15.0,
         "COEF_IF_MOVE": 1.5,
         "MAX_AIM_TIME": 1.5,
         "DAMAGE_TO_DISCARD_AIM_0_100": 100.0,
@@ -374,9 +374,9 @@
         "VISIBLE_DISNACE_WITH_IR_LIGHT": 35.0
       },
       "Mind": {
-        "Aggression": 1.2,
-        "WeaponProficiency": 0.5,
-        "SuppressionResistance": 0.2,
+        "Aggression": 1.5,
+        "WeaponProficiency": 0.9,
+        "SuppressionResistance": 0.6,
         "TalkFrequency": 1.0,
         "CanTalk": true,
         "BotTaunts": true,
@@ -405,10 +405,10 @@
       },
       "Shoot": {
         "RecoilMultiplier": 1.0,
-        "BurstMulti": 2.5,
+        "BurstMulti": 1.5,
         "FireratMulti": 2.0,
         "MaxPointFireDistance": 150.0,
-        "AUTOMATIC_FIRE_SCATTERING_COEF": 1.5
+        "AUTOMATIC_FIRE_SCATTERING_COEF": 1.3
       }
     }
   }
